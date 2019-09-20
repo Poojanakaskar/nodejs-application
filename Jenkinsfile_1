@@ -1,6 +1,6 @@
 //Jenkins file only to tutorial example
 pipeline {
-  agent any
+  agent { 'Ubuntu-1' }
     
   tools {nodejs "node"}
     
